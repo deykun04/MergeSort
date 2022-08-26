@@ -43,7 +43,7 @@ void Merge(int* arr,const int left,const int middle,const int right)
             rightIndex++;
             indexForNewArray++;
     }
-    for (int i=left; i <= right; i++)
+    for (size_t i=left; i <= right; i++)
     {
         arr[i] = resultArray[i];
     }
